@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Canva and Sketchfab Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      padding: 20px;
+    }
+    .embed-container {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-top: 56.2225%;
+      margin-top: 1.6em;
+      margin-bottom: 0.9em;
+      box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+      overflow: hidden;
+      border-radius: 8px;
+      will-change: transform;
+    }
+    .embed-container iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Canva Embed -->
+    <div class="embed-container">
+      <iframe loading="lazy"
+        src="https://www.canva.com/design/DAGLSAninXk/8hucscu0lwdaKK_7UWRGew/view?embed"
+        allowfullscreen="allowfullscreen" allow="fullscreen">
+      </iframe>
+    </div>
+    <a href="https://www.canva.com/design/DAGLSAninXk/8hucscu0lwdaKK_7UWRGew/view?utm_content=DAGLSAninXk&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
+      target="_blank" rel="noopener">Quantun-AI</a>，作者 astronaut cute
+    
+    <!-- Sketchfab Embed -->
+    <div class="embed-container">
+      <iframe title="Sketchfab" width="640" height="480"
+        src="https://sketchfab.com/models/YOUR_MODEL_ID/embed"
+        frameborder="0" allow="autoplay; fullscreen; vr" allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</body>
+</html>
